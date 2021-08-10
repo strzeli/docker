@@ -1,0 +1,2 @@
+XDEBUG_CONFIG=remote_host=10.0.201.182
+PHP_IDE_CONFIG=serverName=docker
