@@ -24,8 +24,8 @@ services:
     php-service:
         build:
             context: ./php
-        env_file:
-            - ./etc/environment.development.yml
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
         container_name: php-container
         ports:
             - "9090:9090"
